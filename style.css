@@ -5,11 +5,37 @@
 h1 {
     font-size: 40px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(80, 167, 243);
+    padding: 8px;
 }
 
-li {
-    color:rgb(79, 79, 218); 
-    font-size: 20px;
-    line-height: 40px;
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.buttons {
+    width: 300px;
+    border-radius: 5%;
+    background-color:rgb(245, 219, 181);
+    margin: 0 auto;
+    padding: 12px;
+}
+
+button {
+    font-size: 16px;
+    display: block;
+    margin: 8px auto;
+    padding: 12px 32px;
+}
+
+p {
+    margin: 24px;
+}
+
+.end-banner {
+    width: auto;
+    background-color: rgb(80, 167, 243);
+    margin-top: 42px;
+    padding: 32px;
 }
